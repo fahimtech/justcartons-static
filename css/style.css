@@ -1,0 +1,607 @@
+@font-face {
+    font-family: "Poppins-Black";
+    src: url("../fonts/Poppins/Poppins-Black.woff") format("woff"),
+        url("../fonts/Poppins/Poppins-Black.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-BlackItalic";
+    src: url("../fonts/Poppins/Poppins-BlackItalic.woff") format("woff"),
+        url("../fonts/Poppins/Poppins-BlackItalic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("../fonts/Poppins/Poppins-Bold.woff") format("woff"),
+        url("../fonts/Poppins/Poppins-Bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-BoldItalic";
+    src: url("../fonts/Poppins/Poppins-BoldItalic.woff") format("woff"),
+        url("../fonts/Poppins/Poppins-BoldItalic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-ExtraBold";
+    src: url("../fonts/Poppins/Poppins-ExtraBold.woff") format("woff"),
+        url("../fonts/Poppins/Poppins-ExtraBold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-ExtraBoldItalic";
+    src: url("../fonts/Poppins/Poppins-ExtraBoldItalic.woff") format("woff"),
+        url("../fonts/Poppins/Poppins-ExtraBoldItalic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-ExtraLight";
+    src: url("../fonts/Poppins/Poppins-ExtraLight.woff") format("woff"),
+        url("../fonts/Poppins/Poppins-ExtraLight.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-ExtraLightItalic";
+    src: url("../fonts/Poppins/Poppins-ExtraLightItalic.woff") format("woff"),
+        url("../fonts/Poppins/Poppins-ExtraLightItalic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Italic";
+    src: url("../fonts/Poppins/Poppins-Italic.woff") format("woff"),
+        url("../fonts/Poppins/Poppins-Italic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Light";
+    src: url("../fonts/Poppins/Poppins-Light.woff") format("woff"),
+        url("../fonts/Poppins/Poppins-Light.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-LightItalic";
+    src: url("../fonts/Poppins/Poppins-LightItalic.woff") format("woff"),
+        url("../fonts/Poppins/Poppins-LightItalic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("../fonts/Poppins/Poppins-Medium.woff") format("woff"),
+        url("../fonts/Poppins/Poppins-Medium.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-MediumItalic";
+    src: url("../fonts/Poppins/Poppins-MediumItalic.woff") format("woff"),
+        url("../fonts/Poppins/Poppins-MediumItalic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../fonts/Poppins/Poppins-Regular.woff") format("woff"),
+        url("../fonts/Poppins/Poppins-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url("../fonts/Poppins/Poppins-SemiBold.woff") format("woff"),
+        url("../fonts/Poppins/Poppins-SemiBold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-SemiBoldItalic";
+    src: url("../fonts/Poppins/Poppins-SemiBoldItalic.woff") format("woff"),
+        url("../fonts/Poppins/Poppins-SemiBoldItalic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Thin";
+    src: url("../fonts/Poppins/Poppins-Thin.woff") format("woff"),
+        url("../fonts/Poppins/Poppins-Thin.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-ThinItalic";
+    src: url("../fonts/Poppins/Poppins-ThinItalic.woff") format("woff"),
+        url("../fonts/Poppins/Poppins-ThinItalic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Poppins-Regular";
+}
+
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 0px;
+}
+
+.app-logo {
+    height: 48px;
+    width: auto;
+}
+
+ul.app-menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+ul.app-menu li.menu-item a {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+ul.app-menu li.menu-item {
+    display: inline-flex;
+    align-items: center;
+}
+
+.primary-button {
+    background: #17639F;
+    border-radius: 2px;
+    padding: 8px 14px;
+    font-size: 14px;
+    font-family: 'Poppins-SemiBold';
+    color: #fff;
+    border: none;
+    height: 40px;
+    text-align: center;
+}
+
+/* footer style */
+.footer-logo {
+    height: 48px;
+    margin-bottom: 12px;
+}
+
+.footer-description {
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.foo-menu {
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+}
+
+.foo-menu li.menu-item {
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+
+.foo-menu li.menu-item:last-child {
+    padding-bottom: 0px;
+}
+
+.footer-address {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.075em;
+    color: #ffffff;
+    margin: 0;
+}
+
+.foo-social-title {
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+    font-family: 'Poppins-SemiBold';
+    margin-bottom: 25px;
+}
+
+ul.social-icons {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    gap: 30px;
+}
+
+li.social-app {
+    display: inline-flex;
+}
+
+img.social-logo {
+    height: 27px;
+    filter: contrast(0) brightness(100);
+}
+
+.app-footer {
+    padding: 0;
+    background: #0070C0;
+    color: #fff;
+}
+
+ul.sub-footer-list {
+    margin: 0;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+    list-style: none;
+}
+
+.copy-right-text {
+    font-size: 14px;
+}
+
+.sub-foo-menu {
+    font-size: 14px;
+}
+
+.footer-main {
+    padding: 100px 0 60px 0px;
+    position: relative;
+}
+
+.footer-bottom {
+    padding: 15px 0px;
+}
+
+.footer-heighlight-info {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-evenly;
+    background-color: #E8EAED;
+    position: absolute;
+    top: -32px;
+    width: calc(100% - 20%);
+    border-radius: 2px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.heighlight-item {
+    display: inline-flex;
+    align-items: center;
+    color: #0070C0;
+    font-family: 'Poppins-SemiBold';
+}
+
+.heighlight-icon {
+    height: 32px;
+    margin-right: 8px;
+}
+
+/* top header */
+.top-header {
+    background: #17639F;
+    color: #fff;
+    width: 100%;
+    height: 45px;
+    display: block;
+}
+
+.inner-top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    width: 100%;
+}
+
+img.wapp-icon {
+    height: 24px;
+    margin-right: 8px;
+}
+
+img.white-jagaddhatri-logo {
+    height: 28px;
+}
+
+.mob-number {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.mob-number a {
+    color: #ffffff;
+}
+
+.mob-number .info-mail {
+    border-left: 1px solid #fff;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.login-btn {
+    padding: 6px 44px;
+    margin-left: 14px;
+}
+
+.menu-header {
+    background: #17639F;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    position: sticky;
+    top: 62px;
+    z-index: 9;
+}
+
+.menu-header.is-sticky {
+    box-shadow: 0 3px 9pt rgb(0 0 0 / 16%);
+}
+
+.search-header {
+    position: sticky;
+    top: 0px;
+    z-index: 9;
+    background-color: #fff;
+}
+
+.search-wrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-wrap .input-group {
+    border: 1px solid #C1C1C1;
+}
+
+.search-wrap .input-group .form-control {
+    border: none;
+    font-size: 14px;
+}
+
+.search-wrap .input-group .input-group-text {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.form-control {
+    border: 1px solid #949494;
+    border-radius: 0px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.search-wrap .input-group .input-group-text svg {
+    fill: #939598;
+}
+
+.secondary-button {
+    background: #ffffff;
+    border-radius: 2px;
+    padding: 8px 14px;
+    font-size: 14px;
+    font-family: 'Poppins-SemiBold';
+    color: #17639F;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #C1C1C1;
+}
+
+.scroll-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #17639F;
+    color: white;
+    cursor: pointer;
+    padding: 0px;
+    width: 35px;
+    height: 35px;
+    border-radius: 2px;
+    font-size: 18px;
+}
+
+.scroll-top-btn:hover {
+    background-color: #17639fb8;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.j-displayInline {
+    display: inline-block;
+}
+
+.j-cursorPointer {
+    cursor: pointer;
+}
+
+.j-textDecorationNone {
+    text-decoration: none;
+}
+
+/* The side navigation menu */
+.requestQuoteNav {
+    bottom: 0;
+    height: auto;
+    max-height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    right: 0;
+    background: linear-gradient(140deg, #17639f, #2ba1fffc);
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0px;
+    margin: auto 0;
+    background-image: url('../images/Request-Quote.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.requestQuoteNav::-webkit-scrollbar {
+    width: 10px;
+}
+
+.requestQuoteNav::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.requestQuoteNav::-webkit-scrollbar-thumb {
+    background: #17639f;
+}
+
+.requestQuoteNav.is-req-nav-open {
+    width: 320px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+/* Position and style the close button (top right corner) */
+.requestQuoteNav .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.req-quote-heading {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.request-quote-form .form-group {
+    margin-bottom: 15px;
+}
+
+.request-quote-form {
+    width: 100%;
+    position: relative;
+}
+
+.request-quote-form .form-control {
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.request-quote-form .submit-btn {
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .footer-heighlight-info {
+        width: calc(100% - 50px);
+    }
+
+    .search-wrap .input-group {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-heighlight-info {
+        width: 100%;
+        flex-flow: column;
+        align-items: baseline;
+        top: -90px;
+    }
+
+    .inner-top-header .industry-logo {
+        display: none;
+    }
+
+    .inner-top-header .contact-left>a {
+        display: none;
+    }
+
+    .inner-top-header .contact-left .mob-number {
+        width: 100%;
+    }
+
+    .menu-header {
+        display: none;
+    }
+
+    .app-footer {
+        margin-top: 130px;
+    }
+
+    .copy-right-text {
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .footer-main {
+        padding: 120px 0 20px 0px;
+    }
+
+    .app-header .login-action {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .requestQuoteNav {
+        padding-top: 15px;
+    }
+
+    .requestQuoteNav a {
+        font-size: 18px;
+    }
+}

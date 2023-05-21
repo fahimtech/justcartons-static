@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUSTCARTONS</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="app-home">
+        <div class="top-header">
+            <div class="container">
+                <div class="inner-top-header">
+                    <div class="contact-left">
+                        <a href="https://wa.me/9110459036?text=I'm%20inquiring%20about%20the%20cartons" target="_blank"
+                            class="j-displayInline j-textDecorationNone j-cursorPointer">
+                            <img src="images/whatsapp-icon.png" class="wapp-icon" />
+                        </a>
+                        <span class="mob-number">
+                            <a href="https://wa.me/9110459036?text=I'm%20inquiring%20about%20the%20cartons"
+                                target="_blank" class="j-displayInline j-textDecorationNone j-cursorPointer">+91
+                                9110459036</a> <a
+                                href="mailto:info@justcartons.com?subject=Inquiry&body=I'm%20inquiring%20about%20the%20cartons"
+                                class="info-mail j-displayInline j-cursorPointer j-textDecorationNone">info@justcartons.com</a>
+                        </span>
+                    </div>
+                    <div class="industry-logo">
+                        <img src="images/white--jagaddhatri-logo.png" class="white-jagaddhatri-logo" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-header" id="search-header">
+            <div class="container">
+                <div class="app-header">
+                    <div class="search-wrap">
+                        <img src="images/logo.png" class="app-logo" />
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" aria-label="Search">
+                            <div class="input-group-text">
+                                <svg width="16" height="16" fill="currentColor" class="bi bi-search"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="login-action">
+                        <button class="secondary-button quote-btn" onclick="openReqQuote()">
+                            Request a Quote
+                        </button>
+                        <button class="primary-button login-btn">
+                            Login
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-header" id="menu-header">
+            <div class="container">
+                <ul class="app-menu">
+                    <li class="menu-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Products</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Services</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">About Us</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="images/home/home-banner-1.jpg" class="d-block w-100" alt="...">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div> -->
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/home/home-banner-2.jpg" class="d-block w-100" alt="...">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div> -->
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/home/home-banner-3.jpg" class="d-block w-100" alt="...">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div> -->
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/home/home-banner-4.jpg" class="d-block w-100" alt="...">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="app-home-container">
+                <div class="products-wrapper">
+                    <h2 class="sub-heading product-title">Our Quality Packaging Products</h2>
+                    <p class="sub-text product-description">Scale up your business with our Quality Packaging Products
+                    </p>
+                    <div class="row product-list g-3">
+                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 product-item">
+                            <div class="product-inner-card">
+                                <div class="product-cover-image">
+                                    <img src="images/home/product-1.png" class="product-image" />
+                                </div>
+                                <div class="product-caption">Corrugated Boxes</div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 product-item">
+                            <div class="product-inner-card">
+                                <div class="product-cover-image">
+                                    <img src="images/home/product-2.png" class="product-image" />
+                                </div>
+                                <div class="product-caption">Separators</div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 product-item">
+                            <div class="product-inner-card">
+                                <div class="product-cover-image">
+                                    <img src="images/home/product-3.png" class="product-image" />
+                                </div>
+                                <div class="product-caption">Bubble Roll</div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 product-item">
+                            <div class="product-inner-card">
+                                <div class="product-cover-image">
+                                    <img src="images/home/product-4.png" class="product-image" />
+                                </div>
+                                <div class="product-caption">Straps & Bandings</div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 product-item">
+                            <div class="product-inner-card">
+                                <div class="product-cover-image">
+                                    <img src="images/home/product-5.png" class="product-image" />
+                                </div>
+                                <div class="product-caption">Stretch Wraps</div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 product-item">
+                            <div class="product-inner-card">
+                                <div class="product-cover-image">
+                                    <img src="images/home/product-6.png" class="product-image" />
+                                </div>
+                                <div class="product-caption">Thermo Foams</div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 product-item">
+                            <div class="product-inner-card">
+                                <div class="product-cover-image">
+                                    <img src="images/home/product-7.png" class="product-image" />
+                                </div>
+                                <div class="product-caption">Foams</div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 product-item">
+                            <div class="product-inner-card">
+                                <div class="product-cover-image">
+                                    <img src="images/home/product-8.png" class="product-image" />
+                                </div>
+                                <div class="product-caption">Pallets</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="who-we-are-wrapper">
+                    <div class="who-we-image">
+                        <img src="images/home/who-we.png" alt="who we" />
+                    </div>
+                    <div class="who-we-content">
+                        <h4 class="who-we-title">Who we are ?</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod </p>
+                        <button class="primary-button">
+                            know more
+                        </button>
+                    </div>
+                </div>
+                <!-- <div class="service-1-wrapper">
+                    <div class="row g-5">
+                        <div class="col-12 col-sm-12 col-lg-4 mission-col">
+                            <div class="our-service-card">
+                                <div class="service-head"><span class="square-color"></span> Our Mission </div>
+                                <div class="sercie-content">
+                                    <div class="service-description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    </div>
+                                    <img src="images/home/pajamas_eye.png" class="service-icon" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-lg-4 vision-col">
+                            <div class="our-service-card">
+                                <div class="service-head"><span class="square-color"></span> Our Vision </div>
+                                <div class="sercie-content">
+                                    <div class="service-description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    </div>
+                                    <img src="images/home/game-icons_stairs-goal.png" class="service-icon" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-lg-4 values-col">
+                            <div class="our-service-card">
+                                <div class="service-head"><span class="square-color"></span> Our Values </div>
+                                <div class="sercie-content">
+                                    <div class="service-description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    </div>
+                                    <img src="images/home/octicon_goal.png" class="service-icon" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="service-2-wrapper">
+                    <div class="row g-0">
+                        <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="service-card service-info-card">
+                                <h4 class="service-title">Our Mission </h4>
+                                <div class="service-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="service-card service-image-card">
+                                <img src="images/home/service-1.png" class="service-img" alt="service-image" />
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="service-card service-info-card">
+                                <h4 class="service-title">Our Values </h4>
+                                <div class="service-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="service-card service-image-card">
+                                <img src="images/home/service-2.png" class="service-img" alt="service-image" />
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="service-card service-info-card">
+                                <h4 class="service-title">Our Vision </h4>
+                                <div class="service-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="service-card service-image-card">
+                                <img src="images/home/service-3.png" class="service-img" alt="service-image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-wrapper">
+                    <div class="team-card">
+                        <h4 class="team-title">Join your team</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur
+                        </p>
+                        <p>Career For assistance with careers, please contact talent_success@justcartons.com</p>
+                    </div>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="row">
+                        <div class="col-12 col-xs-12 col-lg-4"></div>
+                        <div class="col-12 col-xs-12 col-lg-8">
+                            <div class="contact-info">
+                                <h3 class="contact-title">Call Us or <b>Fill the Form</b></h3>
+                                <p class="contact-sub-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-container">
+                        <div class="row">
+                            <div class="col col-12 col-xs-12 col-lg-4">
+                                <div class="contact-details">
+                                    <div class="contact-item">
+                                        <img src="images/home/mdi_location-on-outline.png" alt="" />
+                                        <div class="contact-description">JAGADDHATRI INDUSTRIES JUSTCARTONS UNIT 1
+                                            Survey
+                                            No. 12/10, No. 06 Peddanapalya, Thavarekere Bangalore - 560130</div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <img src="images/home/ic_outline-email.png" alt="" />
+                                        <div class="contact-description">info@justcarton.com</div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <img src="images/home/mingcute_phone-line.png" alt="" />
+                                        <div class="contact-description">+91 963250147</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-xs-12 col-lg-8">
+                                <form class="contact-form">
+                                    <div class="row g-3">
+                                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-6">
+                                            <input type="text" placeholder="Name" class="form-control" id="inputName">
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-6">
+                                            <input type="text" placeholder="Company Name" class="form-control"
+                                                id="inputCompanyName">
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-6">
+                                            <input type="text" placeholder="Phone Number" class="form-control"
+                                                id="inputPhone">
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-6">
+                                            <input type="text" placeholder="Email ID" class="form-control"
+                                                id="inputEmail">
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                                            <textarea type="text" placeholder="Message" rows="6" class="form-control"
+                                                id="inputMessage"></textarea>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                                            <button class="primary-button">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="app-map">
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe height="400" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=california&t=&z=10&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="app-footer">
+            <div class="container">
+                <div class="footer-main">
+                    <div class="footer-heighlight-info">
+                        <span class="heighlight-item"><img src="images/footer/ic_sharp-phone.png"
+                                class="heighlight-icon" /> +91 9110459036</span>
+                        <span class="heighlight-item"><img src="images/footer/material-symbols_date-range.png"
+                                class="heighlight-icon" /> Mon - Sat : 9am - 6pm</span>
+                        <span class="heighlight-item"><img src="images/footer/ic_round-mail.png"
+                                class="heighlight-icon" /> info@justcarton</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/white-logo.png" class="footer-logo" />
+                            <p class="footer-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                        </div>
+                        <div class="col-md-2">
+                            <ul class="foo-menu">
+                                <li class="menu-item">Home</li>
+                                <li class="menu-item">Products</li>
+                                <li class="menu-item">Who we are</li>
+                                <li class="menu-item">Contact US</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <p class="footer-address">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                Bangalore 653140</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="foo-social-title">Follow us :</h3>
+                            <ul class="social-icons">
+                                <li class="social-app">
+                                    <img src="images/footer/social-1.png" class="social-logo" />
+                                </li>
+                                <li class="social-app">
+                                    <img src="images/footer/social-2.png" class="social-logo" />
+                                </li>
+                                <li class="social-app">
+                                    <img src="images/footer/social-3.png" class="social-logo" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="row">
+                        <div class="col-12 col-xs-12 col-md-6 col-lg-4">
+                            <span class="copy-right-text">Copyright All Rights Reserved © 2023 </span>
+                        </div>
+                        <div class="col-12 col-xs-12 col-md-6 col-lg-8">
+                            <ul class="sub-footer-list">
+                                <li class="sub-foo-menu">Sitemap</li>
+                                <li class="sub-foo-menu">Terms of use</li>
+                                <li class="sub-foo-menu">Privacy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myRequestQuoteNav" class="requestQuoteNav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeReqQuote()">&times;</a>
+        <h4 class="req-quote-heading">Request a quote</h4>
+        <form class="request-quote-form">
+            <div class="form-group">
+                <input type="text" placeholder="Name*" class="form-control" id="inputName">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Company*" class="form-control" id="inputName">
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email*" class="form-control" id="inputName">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Phone*" class="form-control" id="inputName">
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Message" class="form-control" rows="6"></textarea>
+            </div>
+            <div class="action-button">
+                <button class="submit-btn primary-button">Submit</button>
+            </div>
+        </form>
+    </div>
+    <button class="scroll-top-btn" onclick="topFunction()" id="scrollTopButton">
+        <i class="bi bi-chevron-up"></i>
+    </button>
+    <script src="js/theme.js"></script>
+</body>
+
+</html>
